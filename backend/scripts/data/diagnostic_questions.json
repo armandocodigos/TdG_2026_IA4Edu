@@ -1,0 +1,2018 @@
+[
+  {
+    "subject": "precalculo",
+    "topic": "conjuntos_numericos",
+    "skill": "identificación",
+    "question_text": "¿Cuál de los siguientes conjuntos contiene únicamente números naturales?",
+    "bloom_level": "remember",
+    "question_type": "multiple_choice",
+    "options_json": [
+      "$\\{1, 2, 3, 4\\}$",
+      "$\\{0, -1, -2, -3\\}$",
+      "$\\left\\{\\frac{1}{2}, \\frac{2}{3}, \\frac{3}{4}\\right\\}$",
+      "$\\{\\sqrt{2}, \\pi, e\\}$"
+    ],
+    "correct_answer": "$\\{1, 2, 3, 4\\}$",
+    "explanation": "Los números naturales son los enteros positivos $\\mathbb{N} = \\{1, 2, 3, \\dots\\}$. El conjunto $\\{1, 2, 3, 4\\}$ está formado exclusivamente por naturales; el resto incluye el cero o negativos, fracciones no enteras, o irracionales como $\\sqrt{2}$, $\\pi$ y $e$."
+  },
+  {
+    "subject": "precalculo",
+    "topic": "conjuntos_numericos",
+    "skill": "relaciones_entre_conjuntos",
+    "question_text": "¿Cuál de las siguientes afirmaciones sobre los conjuntos numéricos es correcta?",
+    "bloom_level": "understand",
+    "question_type": "multiple_choice",
+    "options_json": [
+      "Todo número entero es también racional",
+      "Todo número racional es entero",
+      "Todo número irracional es racional",
+      "Todo número real es natural"
+    ],
+    "correct_answer": "Todo número entero es también racional",
+    "explanation": "Cada entero $n$ puede escribirse como $\\frac{n}{1}$, por lo tanto $\\mathbb{Z} \\subset \\mathbb{Q}$. La jerarquía correcta es $\\mathbb{N} \\subset \\mathbb{Z} \\subset \\mathbb{Q} \\subset \\mathbb{R}$."
+  },
+  {
+    "subject": "precalculo",
+    "topic": "conjuntos_numericos",
+    "skill": "clasificación_decimales",
+    "question_text": "El número $0.\\overline{3}$ (cero punto tres periódico) pertenece a:",
+    "bloom_level": "understand",
+    "question_type": "multiple_choice",
+    "options_json": [
+      "Los racionales, porque equivale a $\\frac{1}{3}$",
+      "Los irracionales, porque tiene infinitas cifras decimales",
+      "Los enteros, porque su parte entera es $0$",
+      "Los naturales, porque no es negativo"
+    ],
+    "correct_answer": "Los racionales, porque equivale a $\\frac{1}{3}$",
+    "explanation": "Un decimal periódico siempre puede expresarse como cociente de enteros: $0.\\overline{3} = \\frac{1}{3} \\in \\mathbb{Q}$. Tener infinitas cifras no implica ser irracional; lo definiría irracional que fueran no periódicas."
+  },
+  {
+    "subject": "precalculo",
+    "topic": "conjuntos_numericos",
+    "skill": "clasificación_radicales",
+    "question_text": "Clasifica el número $\\sqrt{16}$ en el conjunto más pequeño al que pertenece.",
+    "bloom_level": "apply",
+    "question_type": "multiple_choice",
+    "options_json": [
+      "Naturales",
+      "Irracionales",
+      "Racionales no enteros",
+      "Reales pero no racionales"
+    ],
+    "correct_answer": "Naturales",
+    "explanation": "$\\sqrt{16} = 4$. Aunque también es entero, racional y real, el conjunto más pequeño al que pertenece es el de los naturales."
+  },
+  {
+    "subject": "precalculo",
+    "topic": "conjuntos_numericos",
+    "skill": "operaciones_y_conjuntos",
+    "question_text": "¿A qué conjunto pertenece el resultado de $\\frac{\\sqrt{2}}{2} + \\frac{\\sqrt{2}}{2}$?",
+    "bloom_level": "apply",
+    "question_type": "multiple_choice",
+    "options_json": [
+      "Irracionales",
+      "Naturales",
+      "Enteros negativos",
+      "Racionales no enteros"
+    ],
+    "correct_answer": "Irracionales",
+    "explanation": "$\\frac{\\sqrt{2}}{2} + \\frac{\\sqrt{2}}{2} = \\sqrt{2}$, que no puede expresarse como cociente de dos enteros y por tanto es irracional."
+  },
+  {
+    "subject": "precalculo",
+    "topic": "conjuntos_numericos",
+    "skill": "propiedades_de_cierre",
+    "question_text": "Analiza las siguientes afirmaciones sobre operaciones entre conjuntos numéricos y elige la única verdadera:",
+    "bloom_level": "analyze",
+    "question_type": "multiple_choice",
+    "options_json": [
+      "La suma de dos irracionales puede ser racional",
+      "La suma de dos racionales siempre es irracional",
+      "El producto de dos enteros nunca es racional",
+      "Todo número real positivo es natural"
+    ],
+    "correct_answer": "La suma de dos irracionales puede ser racional",
+    "explanation": "Es verdadera porque existe un contraejemplo: $\\sqrt{2} + (-\\sqrt{2}) = 0 \\in \\mathbb{Q}$. Las afirmaciones contrarias son falsas: $\\mathbb{Q}$ es cerrado bajo la suma (la suma de dos racionales siempre es racional), el producto de dos enteros sí es racional (todo entero es racional), y los reales positivos incluyen valores no naturales como $\\frac{1}{2}$ o $\\pi$."
+  },
+  {
+    "subject": "precalculo",
+    "topic": "operaciones_numericas",
+    "skill": "jerarquía_operaciones",
+    "question_text": "Calcula $-8 + 5 \\times 2$ aplicando la jerarquía de operaciones.",
+    "bloom_level": "remember",
+    "question_type": "multiple_choice",
+    "options_json": [
+      "$2$",
+      "$-6$",
+      "$14$",
+      "$-26$"
+    ],
+    "correct_answer": "$2$",
+    "explanation": "La multiplicación tiene prioridad sobre la suma: $5 \\times 2 = 10$, luego $-8 + 10 = 2$."
+  },
+  {
+    "subject": "precalculo",
+    "topic": "operaciones_numericas",
+    "skill": "signos_enteros",
+    "question_text": "¿Cuál de los siguientes resultados es incorrecto?",
+    "bloom_level": "understand",
+    "question_type": "multiple_choice",
+    "options_json": [
+      "$(-6) \\div (-2) = -3$",
+      "$(-4) \\times (-3) = 12$",
+      "$(-7) + (-2) = -9$",
+      "$(-9) - (-4) = -5$"
+    ],
+    "correct_answer": "$(-6) \\div (-2) = -3$",
+    "explanation": "Al dividir dos enteros del mismo signo el resultado es positivo: $(-6) \\div (-2) = 3$, no $-3$."
+  },
+  {
+    "subject": "precalculo",
+    "topic": "operaciones_numericas",
+    "skill": "suma_fracciones",
+    "question_text": "¿Cuál es el resultado de $\\frac{2}{3} + \\frac{1}{4}$?",
+    "bloom_level": "understand",
+    "question_type": "multiple_choice",
+    "options_json": [
+      "$\\frac{11}{12}$",
+      "$\\frac{3}{7}$",
+      "$\\frac{3}{12}$",
+      "$\\frac{2}{12}$"
+    ],
+    "correct_answer": "$\\frac{11}{12}$",
+    "explanation": "Común denominador $12$: $\\frac{2}{3} = \\frac{8}{12}$ y $\\frac{1}{4} = \\frac{3}{12}$. Suma: $\\frac{8+3}{12} = \\frac{11}{12}$."
+  },
+  {
+    "subject": "precalculo",
+    "topic": "operaciones_numericas",
+    "skill": "división_fracciones",
+    "question_text": "Resuelve $\\frac{5}{6} \\div \\frac{2}{3}$ y simplifica.",
+    "bloom_level": "apply",
+    "question_type": "multiple_choice",
+    "options_json": [
+      "$\\frac{5}{4}$",
+      "$\\frac{10}{18}$",
+      "$\\frac{15}{12}$",
+      "$\\frac{6}{5}$"
+    ],
+    "correct_answer": "$\\frac{5}{4}$",
+    "explanation": "Dividir es multiplicar por el recíproco: $\\frac{5}{6} \\times \\frac{3}{2} = \\frac{15}{12} = \\frac{5}{4}$."
+  },
+  {
+    "subject": "precalculo",
+    "topic": "operaciones_numericas",
+    "skill": "operaciones_con_irracionales",
+    "question_text": "Simplifica la expresión $3\\sqrt{5} - \\sqrt{5} + 2\\sqrt{5}$.",
+    "bloom_level": "apply",
+    "question_type": "multiple_choice",
+    "options_json": [
+      "$4\\sqrt{5}$",
+      "$6\\sqrt{5}$",
+      "$4\\sqrt{15}$",
+      "$5\\sqrt{5}$"
+    ],
+    "correct_answer": "$4\\sqrt{5}$",
+    "explanation": "Términos semejantes en $\\sqrt{5}$: $(3 - 1 + 2)\\sqrt{5} = 4\\sqrt{5}$."
+  },
+  {
+    "subject": "precalculo",
+    "topic": "operaciones_numericas",
+    "skill": "expresión_mixta",
+    "question_text": "Calcula $\\frac{2}{3} \\times \\left( \\frac{9}{4} - \\frac{1}{2} \\right) + 0.5$.",
+    "bloom_level": "analyze",
+    "question_type": "multiple_choice",
+    "options_json": [
+      "$\\frac{5}{3}$",
+      "$2$",
+      "$\\frac{7}{4}$",
+      "$\\frac{13}{6}$"
+    ],
+    "correct_answer": "$\\frac{5}{3}$",
+    "explanation": "Paréntesis: $\\frac{9}{4} - \\frac{1}{2} = \\frac{7}{4}$. Producto: $\\frac{2}{3} \\times \\frac{7}{4} = \\frac{7}{6}$. Suma con $0.5 = \\frac{3}{6}$: $\\frac{7}{6} + \\frac{3}{6} = \\frac{10}{6} = \\frac{5}{3}$."
+  },
+  {
+    "subject": "precalculo",
+    "topic": "exponentes",
+    "skill": "exponente_positivo",
+    "question_text": "¿Cuál es el valor de $2^4$?",
+    "bloom_level": "remember",
+    "question_type": "multiple_choice",
+    "options_json": [
+      "$16$",
+      "$8$",
+      "$6$",
+      "$12$"
+    ],
+    "correct_answer": "$16$",
+    "explanation": "$2^4 = 2 \\times 2 \\times 2 \\times 2 = 16$."
+  },
+  {
+    "subject": "precalculo",
+    "topic": "exponentes",
+    "skill": "exponente_cero",
+    "question_text": "¿Cuál es el valor de $7^0$?",
+    "bloom_level": "understand",
+    "question_type": "multiple_choice",
+    "options_json": [
+      "$1$",
+      "$0$",
+      "$7$",
+      "Indefinido"
+    ],
+    "correct_answer": "$1$",
+    "explanation": "Cualquier número distinto de cero elevado a la potencia $0$ es igual a $1$."
+  },
+  {
+    "subject": "precalculo",
+    "topic": "exponentes",
+    "skill": "exponente_negativo",
+    "question_text": "¿Cuál es la forma equivalente de $3^{-2}$?",
+    "bloom_level": "understand",
+    "question_type": "multiple_choice",
+    "options_json": [
+      "$\\frac{1}{9}$",
+      "$-9$",
+      "$-\\frac{1}{9}$",
+      "$\\frac{1}{6}$"
+    ],
+    "correct_answer": "$\\frac{1}{9}$",
+    "explanation": "Por definición de exponente negativo: $3^{-2} = \\frac{1}{3^2} = \\frac{1}{9}$."
+  },
+  {
+    "subject": "precalculo",
+    "topic": "exponentes",
+    "skill": "producto_potencias",
+    "question_text": "Simplifica $x^3 \\cdot x^5$.",
+    "bloom_level": "apply",
+    "question_type": "multiple_choice",
+    "options_json": [
+      "$x^8$",
+      "$x^{15}$",
+      "$x^2$",
+      "$2x^8$"
+    ],
+    "correct_answer": "$x^8$",
+    "explanation": "Al multiplicar potencias de la misma base se suman los exponentes: $x^{3+5} = x^8$."
+  },
+  {
+    "subject": "precalculo",
+    "topic": "exponentes",
+    "skill": "exponente_racional",
+    "question_text": "Expresa $16^{1/2}$ como un número entero.",
+    "bloom_level": "apply",
+    "question_type": "multiple_choice",
+    "options_json": [
+      "$4$",
+      "$8$",
+      "$32$",
+      "$2$"
+    ],
+    "correct_answer": "$4$",
+    "explanation": "$16^{1/2} = \\sqrt{16} = 4$."
+  },
+  {
+    "subject": "precalculo",
+    "topic": "exponentes",
+    "skill": "leyes_combinadas",
+    "question_text": "Simplifica $\\dfrac{(2^3)^2 \\cdot 2^{-1}}{2^4}$.",
+    "bloom_level": "analyze",
+    "question_type": "multiple_choice",
+    "options_json": [
+      "$2$",
+      "$4$",
+      "$1$",
+      "$\\frac{1}{2}$"
+    ],
+    "correct_answer": "$2$",
+    "explanation": "$(2^3)^2 = 2^6$. Numerador: $2^6 \\cdot 2^{-1} = 2^5$. Cociente: $\\frac{2^5}{2^4} = 2^{5-4} = 2$."
+  },
+  {
+    "subject": "precalculo",
+    "topic": "radicales",
+    "skill": "raíz_cuadrada_perfecta",
+    "question_text": "¿Cuál es el valor de $\\sqrt{49}$?",
+    "bloom_level": "remember",
+    "question_type": "multiple_choice",
+    "options_json": [
+      "$7$",
+      "$9$",
+      "$6$",
+      "$\\sqrt{7}$"
+    ],
+    "correct_answer": "$7$",
+    "explanation": "$7^2 = 49$, por lo tanto $\\sqrt{49} = 7$."
+  },
+  {
+    "subject": "precalculo",
+    "topic": "radicales",
+    "skill": "simplificación",
+    "question_text": "Simplifica $\\sqrt{50}$ a su mínima expresión radical.",
+    "bloom_level": "understand",
+    "question_type": "multiple_choice",
+    "options_json": [
+      "$5\\sqrt{2}$",
+      "$10\\sqrt{5}$",
+      "$2\\sqrt{25}$",
+      "$\\sqrt{5}$"
+    ],
+    "correct_answer": "$5\\sqrt{2}$",
+    "explanation": "$50 = 25 \\times 2$, entonces $\\sqrt{50} = \\sqrt{25} \\cdot \\sqrt{2} = 5\\sqrt{2}$."
+  },
+  {
+    "subject": "precalculo",
+    "topic": "radicales",
+    "skill": "producto_de_radicales",
+    "question_text": "Calcula el resultado de $\\sqrt{3} \\cdot \\sqrt{12}$.",
+    "bloom_level": "understand",
+    "question_type": "multiple_choice",
+    "options_json": [
+      "$6$",
+      "$\\sqrt{15}$",
+      "$3\\sqrt{12}$",
+      "$2\\sqrt{3}$"
+    ],
+    "correct_answer": "$6$",
+    "explanation": "$\\sqrt{3} \\cdot \\sqrt{12} = \\sqrt{36} = 6$."
+  },
+  {
+    "subject": "precalculo",
+    "topic": "radicales",
+    "skill": "racionalización",
+    "question_text": "Racionaliza el denominador de $\\dfrac{1}{\\sqrt{2}}$.",
+    "bloom_level": "apply",
+    "question_type": "multiple_choice",
+    "options_json": [
+      "$\\frac{\\sqrt{2}}{2}$",
+      "$\\frac{2}{\\sqrt{2}}$",
+      "$\\sqrt{2}$",
+      "$\\frac{1}{2}$"
+    ],
+    "correct_answer": "$\\frac{\\sqrt{2}}{2}$",
+    "explanation": "Multiplicamos numerador y denominador por $\\sqrt{2}$: $\\frac{1}{\\sqrt{2}} \\cdot \\frac{\\sqrt{2}}{\\sqrt{2}} = \\frac{\\sqrt{2}}{2}$."
+  },
+  {
+    "subject": "precalculo",
+    "topic": "radicales",
+    "skill": "suma_de_radicales",
+    "question_text": "Simplifica $\\sqrt{8} + \\sqrt{18}$.",
+    "bloom_level": "apply",
+    "question_type": "multiple_choice",
+    "options_json": [
+      "$5\\sqrt{2}$",
+      "$\\sqrt{26}$",
+      "$\\sqrt{144}$",
+      "$6\\sqrt{2}$"
+    ],
+    "correct_answer": "$5\\sqrt{2}$",
+    "explanation": "$\\sqrt{8} = 2\\sqrt{2}$ y $\\sqrt{18} = 3\\sqrt{2}$. Suma: $2\\sqrt{2} + 3\\sqrt{2} = 5\\sqrt{2}$."
+  },
+  {
+    "subject": "precalculo",
+    "topic": "radicales",
+    "skill": "racionalización_binomio",
+    "question_text": "Racionaliza el denominador de $\\dfrac{1}{\\sqrt{3}+1}$.",
+    "bloom_level": "analyze",
+    "question_type": "multiple_choice",
+    "options_json": [
+      "$\\frac{\\sqrt{3}-1}{2}$",
+      "$\\frac{\\sqrt{3}+1}{2}$",
+      "$\\sqrt{3}-1$",
+      "$\\frac{1}{2}$"
+    ],
+    "correct_answer": "$\\frac{\\sqrt{3}-1}{2}$",
+    "explanation": "Multiplicamos por el conjugado: $\\frac{1}{\\sqrt{3}+1} \\cdot \\frac{\\sqrt{3}-1}{\\sqrt{3}-1} = \\frac{\\sqrt{3}-1}{3-1} = \\frac{\\sqrt{3}-1}{2}$."
+  },
+  {
+    "subject": "precalculo",
+    "topic": "ecuaciones",
+    "skill": "lineal_simple",
+    "question_text": "Resuelve para $x$: $x + 7 = 12$.",
+    "bloom_level": "remember",
+    "question_type": "multiple_choice",
+    "options_json": [
+      "$x = 5$",
+      "$x = 19$",
+      "$x = -5$",
+      "$x = 7$"
+    ],
+    "correct_answer": "$x = 5$",
+    "explanation": "Restando $7$ a ambos lados: $x = 12 - 7 = 5$."
+  },
+  {
+    "subject": "precalculo",
+    "topic": "ecuaciones",
+    "skill": "lineal_paréntesis",
+    "question_text": "Resuelve la ecuación $2(x-3) = 10$.",
+    "bloom_level": "understand",
+    "question_type": "multiple_choice",
+    "options_json": [
+      "$x = 8$",
+      "$x = 2$",
+      "$x = 5$",
+      "$x = 11$"
+    ],
+    "correct_answer": "$x = 8$",
+    "explanation": "Distribuyendo: $2x - 6 = 10 \\Rightarrow 2x = 16 \\Rightarrow x = 8$."
+  },
+  {
+    "subject": "precalculo",
+    "topic": "ecuaciones",
+    "skill": "identificación_cuadrática",
+    "question_text": "¿Cuál de las siguientes es una ecuación cuadrática en $x$?",
+    "bloom_level": "understand",
+    "question_type": "multiple_choice",
+    "options_json": [
+      "$3x^2 - 5x + 2 = 0$",
+      "$5x - 7 = 0$",
+      "$\\sqrt{x} = 4$",
+      "$\\frac{1}{x} = 2$"
+    ],
+    "correct_answer": "$3x^2 - 5x + 2 = 0$",
+    "explanation": "Una ecuación cuadrática tiene la forma $ax^2 + bx + c = 0$ con $a \\ne 0$. La ecuación $3x^2 - 5x + 2 = 0$ cumple esa forma; una ecuación con grado distinto de $2$ o con la incógnita en denominador o bajo radical no es cuadrática."
+  },
+  {
+    "subject": "precalculo",
+    "topic": "ecuaciones",
+    "skill": "factorización_cuadrática",
+    "question_text": "Resuelve $x^2 - 5x + 6 = 0$ por factorización.",
+    "bloom_level": "apply",
+    "question_type": "multiple_choice",
+    "options_json": [
+      "$x = 2, x = 3$",
+      "$x = -2, x = -3$",
+      "$x = 1, x = 6$",
+      "$x = 5, x = 6$"
+    ],
+    "correct_answer": "$x = 2, x = 3$",
+    "explanation": "Buscamos dos números cuyo producto sea $6$ y suma $-(-5) = 5$: son $2$ y $3$. Entonces $(x-2)(x-3)=0$, soluciones $x=2$ y $x=3$."
+  },
+  {
+    "subject": "precalculo",
+    "topic": "ecuaciones",
+    "skill": "fórmula_general",
+    "question_text": "Resuelve $x^2 + 2x - 8 = 0$ usando la fórmula general.",
+    "bloom_level": "apply",
+    "question_type": "multiple_choice",
+    "options_json": [
+      "$x = 2, x = -4$",
+      "$x = -2, x = 4$",
+      "$x = 1, x = -8$",
+      "$x = 8, x = -1$"
+    ],
+    "correct_answer": "$x = 2, x = -4$",
+    "explanation": "$x = \\frac{-2 \\pm \\sqrt{4 + 32}}{2} = \\frac{-2 \\pm 6}{2}$. Soluciones: $x = 2$ y $x = -4$."
+  },
+  {
+    "subject": "precalculo",
+    "topic": "ecuaciones",
+    "skill": "sistema_2x2",
+    "question_text": "Si $x + y = 10$ y $x - y = 4$, ¿cuál es el valor de $x \\cdot y$?",
+    "bloom_level": "analyze",
+    "question_type": "multiple_choice",
+    "options_json": [
+      "$21$",
+      "$24$",
+      "$14$",
+      "$40$"
+    ],
+    "correct_answer": "$21$",
+    "explanation": "Sumando las dos ecuaciones: $2x = 14 \\Rightarrow x = 7$. Restando: $2y = 6 \\Rightarrow y = 3$. Producto: $7 \\times 3 = 21$."
+  },
+  {
+    "subject": "precalculo",
+    "topic": "funciones",
+    "skill": "definición",
+    "question_text": "¿Cuál es la condición fundamental para que una relación entre dos conjuntos sea una función?",
+    "bloom_level": "remember",
+    "question_type": "multiple_choice",
+    "options_json": [
+      "A cada elemento del dominio le corresponde un único elemento del codominio",
+      "Debe estar definida por una fórmula algebraica",
+      "Su gráfica debe ser una línea recta",
+      "Su dominio debe ser el conjunto de los reales"
+    ],
+    "correct_answer": "A cada elemento del dominio le corresponde un único elemento del codominio",
+    "explanation": "Una función asigna a cada elemento del dominio exactamente un elemento del codominio."
+  },
+  {
+    "subject": "precalculo",
+    "topic": "funciones",
+    "skill": "dominio_polinómica",
+    "question_text": "¿Cuál es el dominio de la función $f(x) = 2x^2 - 3$?",
+    "bloom_level": "understand",
+    "question_type": "multiple_choice",
+    "options_json": [
+      "Todos los números reales",
+      "Sólo enteros",
+      "$x \\ge 0$",
+      "$x \\ne 0$"
+    ],
+    "correct_answer": "Todos los números reales",
+    "explanation": "Las funciones polinómicas están definidas para cualquier número real."
+  },
+  {
+    "subject": "precalculo",
+    "topic": "funciones",
+    "skill": "evaluación",
+    "question_text": "Si $f(x) = 3x - 4$, ¿cuál es el valor de $f(-2)$?",
+    "bloom_level": "understand",
+    "question_type": "multiple_choice",
+    "options_json": [
+      "$-10$",
+      "$-2$",
+      "$2$",
+      "$-7$"
+    ],
+    "correct_answer": "$-10$",
+    "explanation": "$f(-2) = 3(-2) - 4 = -6 - 4 = -10$."
+  },
+  {
+    "subject": "precalculo",
+    "topic": "funciones",
+    "skill": "dominio_racional",
+    "question_text": "Determina el dominio de $g(x) = \\dfrac{x+1}{x^2 - 4}$.",
+    "bloom_level": "apply",
+    "question_type": "multiple_choice",
+    "options_json": [
+      "Todos los reales excepto $x = 2$ y $x = -2$",
+      "Todos los números reales",
+      "Todos los reales excepto $x = 4$",
+      "Todos los reales excepto $x = -1$"
+    ],
+    "correct_answer": "Todos los reales excepto $x = 2$ y $x = -2$",
+    "explanation": "El denominador se anula cuando $x^2 - 4 = 0$, es decir $x = \\pm 2$. Esos valores deben excluirse del dominio."
+  },
+  {
+    "subject": "precalculo",
+    "topic": "funciones",
+    "skill": "rango_cuadrática",
+    "question_text": "Determina el rango de $f(x) = x^2 + 1$.",
+    "bloom_level": "apply",
+    "question_type": "multiple_choice",
+    "options_json": [
+      "$[1, \\infty)$",
+      "Todos los reales",
+      "$[0, \\infty)$",
+      "$(-\\infty, 1]$"
+    ],
+    "correct_answer": "$[1, \\infty)$",
+    "explanation": "Como $x^2 \\ge 0$ para todo real, el valor mínimo de $f$ es $0 + 1 = 1$, alcanzado en $x = 0$, y crece sin límite."
+  },
+  {
+    "subject": "precalculo",
+    "topic": "funciones",
+    "skill": "prueba_recta_vertical",
+    "question_text": "Una curva en el plano cartesiano corta a una recta vertical en dos puntos diferentes. ¿Qué se puede concluir?",
+    "bloom_level": "evaluate",
+    "question_type": "multiple_choice",
+    "options_json": [
+      "La curva NO representa una función",
+      "La curva representa una función inyectiva",
+      "La curva representa una función par",
+      "La curva representa la inversa de una función"
+    ],
+    "correct_answer": "La curva NO representa una función",
+    "explanation": "Si una recta vertical corta a la curva en más de un punto, hay un valor de $x$ con dos imágenes distintas, lo cual viola la definición de función."
+  },
+  {
+    "subject": "precalculo",
+    "topic": "exponenciales",
+    "skill": "forma_básica",
+    "question_text": "¿Cuál es la forma general de una función exponencial?",
+    "bloom_level": "remember",
+    "question_type": "multiple_choice",
+    "options_json": [
+      "$f(x) = a^x$ con $a > 0$ y $a \\ne 1$",
+      "$f(x) = ax + b$",
+      "$f(x) = x^a$",
+      "$f(x) = \\log_a(x)$"
+    ],
+    "correct_answer": "$f(x) = a^x$ con $a > 0$ y $a \\ne 1$",
+    "explanation": "En una función exponencial la variable está en el exponente y la base $a$ debe ser positiva distinta de $1$."
+  },
+  {
+    "subject": "precalculo",
+    "topic": "exponenciales",
+    "skill": "dominio_rango",
+    "question_text": "¿Cuál es el dominio y rango de $f(x) = 2^x$?",
+    "bloom_level": "understand",
+    "question_type": "multiple_choice",
+    "options_json": [
+      "Dominio: $\\mathbb{R}$; Rango: $(0, \\infty)$",
+      "Dominio: $(0, \\infty)$; Rango: $\\mathbb{R}$",
+      "Dominio: $\\mathbb{R}$; Rango: $\\mathbb{R}$",
+      "Dominio: $[0, \\infty)$; Rango: $[0, \\infty)$"
+    ],
+    "correct_answer": "Dominio: $\\mathbb{R}$; Rango: $(0, \\infty)$",
+    "explanation": "La función exponencial está definida para todo real y siempre toma valores positivos."
+  },
+  {
+    "subject": "precalculo",
+    "topic": "exponenciales",
+    "skill": "valor_en_cero",
+    "question_text": "¿Cuál es el valor de $f(0)$ para cualquier función exponencial $f(x) = a^x$ con $a > 0$?",
+    "bloom_level": "understand",
+    "question_type": "multiple_choice",
+    "options_json": [
+      "$1$",
+      "$0$",
+      "$a$",
+      "Indefinido"
+    ],
+    "correct_answer": "$1$",
+    "explanation": "Por convención $a^0 = 1$ para todo $a > 0$, así que toda exponencial pasa por el punto $(0, 1)$."
+  },
+  {
+    "subject": "precalculo",
+    "topic": "exponenciales",
+    "skill": "evaluación",
+    "question_text": "Si $f(x) = 3^x$, ¿cuál es el valor de $f(-2)$?",
+    "bloom_level": "apply",
+    "question_type": "multiple_choice",
+    "options_json": [
+      "$\\frac{1}{9}$",
+      "$-9$",
+      "$-6$",
+      "$9$"
+    ],
+    "correct_answer": "$\\frac{1}{9}$",
+    "explanation": "$f(-2) = 3^{-2} = \\frac{1}{3^2} = \\frac{1}{9}$."
+  },
+  {
+    "subject": "precalculo",
+    "topic": "exponenciales",
+    "skill": "ecuación_exponencial_básica",
+    "question_text": "Resuelve la ecuación exponencial $2^x = 32$.",
+    "bloom_level": "apply",
+    "question_type": "multiple_choice",
+    "options_json": [
+      "$x = 5$",
+      "$x = 4$",
+      "$x = 16$",
+      "$x = 6$"
+    ],
+    "correct_answer": "$x = 5$",
+    "explanation": "$32 = 2^5$, entonces $2^x = 2^5$ implica $x = 5$."
+  },
+  {
+    "subject": "precalculo",
+    "topic": "exponenciales",
+    "skill": "comportamiento_decreciente",
+    "question_text": "La función $f(x) = \\left(\\dfrac{1}{2}\\right)^x$ es:",
+    "bloom_level": "analyze",
+    "question_type": "multiple_choice",
+    "options_json": [
+      "Decreciente en todo su dominio",
+      "Creciente en todo su dominio",
+      "Constante",
+      "Decreciente sólo para $x < 0$"
+    ],
+    "correct_answer": "Decreciente en todo su dominio",
+    "explanation": "Cuando la base de una exponencial está entre $0$ y $1$, la función es estrictamente decreciente en todo $\\mathbb{R}$."
+  },
+  {
+    "subject": "precalculo",
+    "topic": "logaritmos",
+    "skill": "definición",
+    "question_text": "La igualdad $\\log_b(a) = c$ es equivalente a:",
+    "bloom_level": "remember",
+    "question_type": "multiple_choice",
+    "options_json": [
+      "$b^c = a$",
+      "$a^c = b$",
+      "$c^b = a$",
+      "$a^b = c$"
+    ],
+    "correct_answer": "$b^c = a$",
+    "explanation": "Por definición, el logaritmo es el exponente al que hay que elevar la base $b$ para obtener $a$."
+  },
+  {
+    "subject": "precalculo",
+    "topic": "logaritmos",
+    "skill": "dominio",
+    "question_text": "¿Cuál es el dominio de la función $f(x) = \\log_2(x)$?",
+    "bloom_level": "understand",
+    "question_type": "multiple_choice",
+    "options_json": [
+      "$(0, \\infty)$",
+      "Todos los reales",
+      "$[0, \\infty)$",
+      "$(-\\infty, 0)$"
+    ],
+    "correct_answer": "$(0, \\infty)$",
+    "explanation": "El logaritmo sólo está definido para argumentos estrictamente positivos."
+  },
+  {
+    "subject": "precalculo",
+    "topic": "logaritmos",
+    "skill": "valor_básico",
+    "question_text": "¿Cuál es el valor de $\\log_{10}(100)$?",
+    "bloom_level": "understand",
+    "question_type": "multiple_choice",
+    "options_json": [
+      "$2$",
+      "$10$",
+      "$100$",
+      "$1$"
+    ],
+    "correct_answer": "$2$",
+    "explanation": "$10^2 = 100$, por lo tanto $\\log_{10}(100) = 2$."
+  },
+  {
+    "subject": "precalculo",
+    "topic": "logaritmos",
+    "skill": "propiedades",
+    "question_text": "Simplifica $\\log_3(9) + \\log_3(3)$ usando las propiedades de los logaritmos.",
+    "bloom_level": "apply",
+    "question_type": "multiple_choice",
+    "options_json": [
+      "$3$",
+      "$\\log_3(12)$",
+      "$2$",
+      "$6$"
+    ],
+    "correct_answer": "$3$",
+    "explanation": "$\\log_3(9) = 2$ y $\\log_3(3) = 1$. Suma: $2 + 1 = 3$. Equivale también a $\\log_3(9 \\cdot 3) = \\log_3(27) = 3$."
+  },
+  {
+    "subject": "precalculo",
+    "topic": "logaritmos",
+    "skill": "ecuación_logarítmica",
+    "question_text": "Resuelve $\\log_2(x) = 4$ para $x$.",
+    "bloom_level": "apply",
+    "question_type": "multiple_choice",
+    "options_json": [
+      "$16$",
+      "$8$",
+      "$2$",
+      "$6$"
+    ],
+    "correct_answer": "$16$",
+    "explanation": "Aplicando la definición: $x = 2^4 = 16$."
+  },
+  {
+    "subject": "precalculo",
+    "topic": "logaritmos",
+    "skill": "relación_inversa",
+    "question_text": "¿Cuál afirmación describe correctamente la relación entre $f(x) = 2^x$ y $g(x) = \\log_2(x)$?",
+    "bloom_level": "evaluate",
+    "question_type": "multiple_choice",
+    "options_json": [
+      "Son funciones inversas; sus gráficas son simétricas respecto a la recta $y = x$",
+      "Son la misma función expresada de forma distinta",
+      "$g$ es la derivada de $f$",
+      "Su composición $f \\circ g$ es la función nula"
+    ],
+    "correct_answer": "Son funciones inversas; sus gráficas son simétricas respecto a la recta $y = x$",
+    "explanation": "La función logarítmica es la inversa de la exponencial de la misma base; cumplen $f(g(x)) = x$ y sus gráficas son reflejos respecto a $y = x$."
+  },
+  {
+    "subject": "precalculo",
+    "topic": "trigonometria_basica",
+    "skill": "razones_trigonométricas",
+    "question_text": "En un triángulo rectángulo, $\\sin(\\theta)$ se define como:",
+    "bloom_level": "remember",
+    "question_type": "multiple_choice",
+    "options_json": [
+      "Cateto opuesto sobre hipotenusa",
+      "Cateto adyacente sobre hipotenusa",
+      "Cateto opuesto sobre cateto adyacente",
+      "Hipotenusa sobre cateto opuesto"
+    ],
+    "correct_answer": "Cateto opuesto sobre hipotenusa",
+    "explanation": "Por definición: $\\sin(\\theta) = \\dfrac{\\text{cateto opuesto}}{\\text{hipotenusa}}$."
+  },
+  {
+    "subject": "precalculo",
+    "topic": "trigonometria_basica",
+    "skill": "pitágoras_directo",
+    "question_text": "En un triángulo rectángulo los catetos miden $3$ y $4$. ¿Cuánto mide la hipotenusa?",
+    "bloom_level": "understand",
+    "question_type": "multiple_choice",
+    "options_json": [
+      "$5$",
+      "$7$",
+      "$\\sqrt{7}$",
+      "$12$"
+    ],
+    "correct_answer": "$5$",
+    "explanation": "Por Pitágoras: $h = \\sqrt{3^2 + 4^2} = \\sqrt{9 + 16} = \\sqrt{25} = 5$."
+  },
+  {
+    "subject": "precalculo",
+    "topic": "trigonometria_basica",
+    "skill": "ángulo_notable",
+    "question_text": "¿Cuál es el valor exacto de $\\sin(30°)$?",
+    "bloom_level": "understand",
+    "question_type": "multiple_choice",
+    "options_json": [
+      "$\\frac{1}{2}$",
+      "$\\frac{\\sqrt{2}}{2}$",
+      "$\\frac{\\sqrt{3}}{2}$",
+      "$1$"
+    ],
+    "correct_answer": "$\\frac{1}{2}$",
+    "explanation": "$\\sin(30°) = \\dfrac{1}{2}$ es un valor notable de la trigonometría."
+  },
+  {
+    "subject": "precalculo",
+    "topic": "trigonometria_basica",
+    "skill": "pitágoras_inverso",
+    "question_text": "La hipotenusa de un triángulo rectángulo mide $13$ y uno de los catetos mide $5$. ¿Cuánto mide el otro cateto?",
+    "bloom_level": "apply",
+    "question_type": "multiple_choice",
+    "options_json": [
+      "$12$",
+      "$8$",
+      "$\\sqrt{18}$",
+      "$\\sqrt{194}$"
+    ],
+    "correct_answer": "$12$",
+    "explanation": "$\\sqrt{13^2 - 5^2} = \\sqrt{169 - 25} = \\sqrt{144} = 12$."
+  },
+  {
+    "subject": "precalculo",
+    "topic": "trigonometria_basica",
+    "skill": "cálculo_razón",
+    "question_text": "En un triángulo rectángulo, el cateto opuesto a $\\theta$ mide $6$ y la hipotenusa mide $10$. ¿Cuál es el valor de $\\cos(\\theta)$?",
+    "bloom_level": "apply",
+    "question_type": "multiple_choice",
+    "options_json": [
+      "$\\frac{4}{5}$",
+      "$\\frac{3}{5}$",
+      "$\\frac{6}{10}$",
+      "$\\frac{5}{4}$"
+    ],
+    "correct_answer": "$\\frac{4}{5}$",
+    "explanation": "El cateto adyacente es $\\sqrt{10^2 - 6^2} = \\sqrt{64} = 8$. Por lo tanto $\\cos(\\theta) = \\dfrac{8}{10} = \\dfrac{4}{5}$."
+  },
+  {
+    "subject": "precalculo",
+    "topic": "trigonometria_basica",
+    "skill": "aplicación_real",
+    "question_text": "Una escalera de $5$ m se apoya en una pared formando un ángulo de $60°$ con el suelo. ¿A qué altura sobre el suelo toca la pared?",
+    "bloom_level": "analyze",
+    "question_type": "multiple_choice",
+    "options_json": [
+      "$\\frac{5\\sqrt{3}}{2}$ m",
+      "$\\frac{5}{2}$ m",
+      "$5\\sqrt{3}$ m",
+      "$\\frac{5\\sqrt{2}}{2}$ m"
+    ],
+    "correct_answer": "$\\frac{5\\sqrt{3}}{2}$ m",
+    "explanation": "La altura es $h = 5 \\sin(60°) = 5 \\cdot \\dfrac{\\sqrt{3}}{2} = \\dfrac{5\\sqrt{3}}{2}$ m."
+  },
+  {
+    "subject": "precalculo",
+    "topic": "geometria_analitica",
+    "skill": "fórmula_distancia",
+    "question_text": "¿Cuál es la fórmula de la distancia entre dos puntos $(x_1, y_1)$ y $(x_2, y_2)$ en el plano?",
+    "bloom_level": "remember",
+    "question_type": "multiple_choice",
+    "options_json": [
+      "$d = \\sqrt{(x_2 - x_1)^2 + (y_2 - y_1)^2}$",
+      "$d = (x_2 - x_1)^2 + (y_2 - y_1)^2$",
+      "$d = |x_2 - x_1| + |y_2 - y_1|$",
+      "$d = \\sqrt{x_1^2 + y_1^2} - \\sqrt{x_2^2 + y_2^2}$"
+    ],
+    "correct_answer": "$d = \\sqrt{(x_2 - x_1)^2 + (y_2 - y_1)^2}$",
+    "explanation": "Es una aplicación directa del teorema de Pitágoras al triángulo formado por los catetos $|x_2 - x_1|$ y $|y_2 - y_1|$."
+  },
+  {
+    "subject": "precalculo",
+    "topic": "geometria_analitica",
+    "skill": "distancia_eje",
+    "question_text": "¿Cuál es la distancia entre los puntos $(3, 0)$ y $(7, 0)$?",
+    "bloom_level": "understand",
+    "question_type": "multiple_choice",
+    "options_json": [
+      "$4$",
+      "$10$",
+      "$\\sqrt{10}$",
+      "$\\sqrt{58}$"
+    ],
+    "correct_answer": "$4$",
+    "explanation": "Ambos puntos están sobre el eje $x$; la distancia es $|7 - 3| = 4$."
+  },
+  {
+    "subject": "precalculo",
+    "topic": "geometria_analitica",
+    "skill": "distancia_al_origen",
+    "question_text": "¿Cuál es la distancia entre el punto $(3, 4)$ y el origen?",
+    "bloom_level": "understand",
+    "question_type": "multiple_choice",
+    "options_json": [
+      "$5$",
+      "$7$",
+      "$\\sqrt{7}$",
+      "$12$"
+    ],
+    "correct_answer": "$5$",
+    "explanation": "$d = \\sqrt{3^2 + 4^2} = \\sqrt{9 + 16} = \\sqrt{25} = 5$."
+  },
+  {
+    "subject": "precalculo",
+    "topic": "geometria_analitica",
+    "skill": "distancia_general",
+    "question_text": "Calcula la distancia entre los puntos $(-2, 3)$ y $(4, -5)$.",
+    "bloom_level": "apply",
+    "question_type": "multiple_choice",
+    "options_json": [
+      "$10$",
+      "$\\sqrt{20}$",
+      "$14$",
+      "$2\\sqrt{5}$"
+    ],
+    "correct_answer": "$10$",
+    "explanation": "$d = \\sqrt{(4 - (-2))^2 + (-5 - 3)^2} = \\sqrt{6^2 + (-8)^2} = \\sqrt{36 + 64} = \\sqrt{100} = 10$."
+  },
+  {
+    "subject": "precalculo",
+    "topic": "geometria_analitica",
+    "skill": "triángulo_rectángulo",
+    "question_text": "Los puntos $A(1, 2)$, $B(4, 2)$ y $C(4, 6)$ son vértices de un triángulo rectángulo. ¿Cuál es la longitud de la hipotenusa $AC$?",
+    "bloom_level": "apply",
+    "question_type": "multiple_choice",
+    "options_json": [
+      "$5$",
+      "$7$",
+      "$\\sqrt{7}$",
+      "$25$"
+    ],
+    "correct_answer": "$5$",
+    "explanation": "$AC = \\sqrt{(4 - 1)^2 + (6 - 2)^2} = \\sqrt{9 + 16} = 5$."
+  },
+  {
+    "subject": "precalculo",
+    "topic": "geometria_analitica",
+    "skill": "ubicación_y_distancia",
+    "question_text": "Considera el punto $P(-3, -3)$. ¿Cuál de las siguientes afirmaciones es correcta?",
+    "bloom_level": "analyze",
+    "question_type": "multiple_choice",
+    "options_json": [
+      "$P$ está en el tercer cuadrante y a distancia $3\\sqrt{2}$ del origen",
+      "$P$ está en el segundo cuadrante y a distancia $3$ del origen",
+      "$P$ está en el cuarto cuadrante y a distancia $3\\sqrt{2}$ del origen",
+      "$P$ está en el primer cuadrante y a distancia $6$ del origen"
+    ],
+    "correct_answer": "$P$ está en el tercer cuadrante y a distancia $3\\sqrt{2}$ del origen",
+    "explanation": "Ambas coordenadas son negativas, así que $P$ está en el tercer cuadrante. La distancia al origen es $\\sqrt{(-3)^2 + (-3)^2} = \\sqrt{18} = 3\\sqrt{2}$."
+  },
+  {
+    "subject": "preuniversitario",
+    "topic": "aritmetica_basica",
+    "skill": "suma_basica",
+    "question_text": "Calcula $245 + 378$.",
+    "bloom_level": "remember",
+    "question_type": "multiple_choice",
+    "options_json": [
+      "$623$",
+      "$613$",
+      "$723$",
+      "$523$"
+    ],
+    "correct_answer": "$623$",
+    "explanation": "Sumando columna por columna con acarreo: $245 + 378 = 623$."
+  },
+  {
+    "subject": "preuniversitario",
+    "topic": "aritmetica_basica",
+    "skill": "jerarquía_operaciones",
+    "question_text": "Calcula $12 - 4 \\times 2$ respetando la jerarquía de operaciones.",
+    "bloom_level": "understand",
+    "question_type": "multiple_choice",
+    "options_json": [
+      "$4$",
+      "$16$",
+      "$20$",
+      "$-4$"
+    ],
+    "correct_answer": "$4$",
+    "explanation": "Primero la multiplicación: $4 \\times 2 = 8$. Luego $12 - 8 = 4$."
+  },
+  {
+    "subject": "preuniversitario",
+    "topic": "aritmetica_basica",
+    "skill": "division_exacta",
+    "question_text": "¿Cuál es el resultado de $144 \\div 12$?",
+    "bloom_level": "understand",
+    "question_type": "multiple_choice",
+    "options_json": [
+      "$12$",
+      "$11$",
+      "$13$",
+      "$14$"
+    ],
+    "correct_answer": "$12$",
+    "explanation": "$12 \\times 12 = 144$, por lo tanto $144 \\div 12 = 12$."
+  },
+  {
+    "subject": "preuniversitario",
+    "topic": "aritmetica_basica",
+    "skill": "problema_compra",
+    "question_text": "Compras $3$ artículos a \\$8 cada uno y pagas con un billete de \\$50. ¿Cuánto recibes de vuelto?",
+    "bloom_level": "apply",
+    "question_type": "multiple_choice",
+    "options_json": [
+      "\\$26",
+      "\\$24",
+      "\\$30",
+      "\\$32"
+    ],
+    "correct_answer": "\\$26",
+    "explanation": "Total a pagar: $3 \\times 8 = 24$. Vuelto: $50 - 24 = 26$."
+  },
+  {
+    "subject": "preuniversitario",
+    "topic": "aritmetica_basica",
+    "skill": "division_con_residuo",
+    "question_text": "Al dividir $47$ entre $5$, ¿cuál es el cociente y el residuo?",
+    "bloom_level": "apply",
+    "question_type": "multiple_choice",
+    "options_json": [
+      "Cociente $9$, residuo $2$",
+      "Cociente $8$, residuo $7$",
+      "Cociente $9$, residuo $0$",
+      "Cociente $10$, residuo $-3$"
+    ],
+    "correct_answer": "Cociente $9$, residuo $2$",
+    "explanation": "$5 \\times 9 = 45$ y $47 - 45 = 2$, por lo que el cociente es $9$ y el residuo $2$."
+  },
+  {
+    "subject": "preuniversitario",
+    "topic": "aritmetica_basica",
+    "skill": "problema_combinado",
+    "question_text": "Un autobús sale con $24$ pasajeros. En la primera parada bajan $7$ y suben $5$. En la segunda bajan $3$ y suben $9$. ¿Cuántos pasajeros viajan tras la segunda parada?",
+    "bloom_level": "analyze",
+    "question_type": "multiple_choice",
+    "options_json": [
+      "$28$",
+      "$22$",
+      "$26$",
+      "$30$"
+    ],
+    "correct_answer": "$28$",
+    "explanation": "Tras la primera parada: $24 - 7 + 5 = 22$. Tras la segunda: $22 - 3 + 9 = 28$."
+  },
+  {
+    "subject": "preuniversitario",
+    "topic": "numeros_y_decimales",
+    "skill": "fraccion_a_decimal",
+    "question_text": "¿Cuál es la forma decimal de la fracción $\\frac{3}{4}$?",
+    "bloom_level": "remember",
+    "question_type": "multiple_choice",
+    "options_json": [
+      "$0.75$",
+      "$0.34$",
+      "$0.43$",
+      "$0.7$"
+    ],
+    "correct_answer": "$0.75$",
+    "explanation": "$3 \\div 4 = 0.75$."
+  },
+  {
+    "subject": "preuniversitario",
+    "topic": "numeros_y_decimales",
+    "skill": "comparacion",
+    "question_text": "¿Cuál es el mayor de los siguientes números: $0.5$, $\\frac{1}{3}$, $0.4$, $\\frac{2}{5}$?",
+    "bloom_level": "understand",
+    "question_type": "multiple_choice",
+    "options_json": [
+      "$0.5$",
+      "$\\frac{1}{3}$",
+      "$0.4$",
+      "$\\frac{2}{5}$"
+    ],
+    "correct_answer": "$0.5$",
+    "explanation": "En decimales: $\\frac{1}{3} \\approx 0.333$ y $\\frac{2}{5} = 0.4$. El mayor es $0.5$."
+  },
+  {
+    "subject": "preuniversitario",
+    "topic": "numeros_y_decimales",
+    "skill": "fraccion_equivalente",
+    "question_text": "¿Cuál de las siguientes fracciones es equivalente a $\\frac{2}{6}$?",
+    "bloom_level": "understand",
+    "question_type": "multiple_choice",
+    "options_json": [
+      "$\\frac{1}{3}$",
+      "$\\frac{2}{3}$",
+      "$\\frac{3}{6}$",
+      "$\\frac{4}{6}$"
+    ],
+    "correct_answer": "$\\frac{1}{3}$",
+    "explanation": "Dividiendo numerador y denominador entre $2$: $\\frac{2}{6} = \\frac{1}{3}$."
+  },
+  {
+    "subject": "preuniversitario",
+    "topic": "numeros_y_decimales",
+    "skill": "suma_resta_decimales",
+    "question_text": "Calcula $3.4 + 2.75 - 1.05$.",
+    "bloom_level": "apply",
+    "question_type": "multiple_choice",
+    "options_json": [
+      "$5.1$",
+      "$4.1$",
+      "$5.2$",
+      "$6.15$"
+    ],
+    "correct_answer": "$5.1$",
+    "explanation": "$3.4 + 2.75 = 6.15$; $6.15 - 1.05 = 5.10$."
+  },
+  {
+    "subject": "preuniversitario",
+    "topic": "numeros_y_decimales",
+    "skill": "multiplicacion_decimales",
+    "question_text": "Calcula $0.5 \\times 0.4$.",
+    "bloom_level": "apply",
+    "question_type": "multiple_choice",
+    "options_json": [
+      "$0.2$",
+      "$2$",
+      "$0.02$",
+      "$0.9$"
+    ],
+    "correct_answer": "$0.2$",
+    "explanation": "$5 \\times 4 = 20$. Como cada factor tiene $1$ decimal, el resultado tiene $2$: $0.20 = 0.2$."
+  },
+  {
+    "subject": "preuniversitario",
+    "topic": "numeros_y_decimales",
+    "skill": "mezcla_fraccion_decimal",
+    "question_text": "Un alumno tiene $\\frac{3}{5}$ de litro de agua y agrega $0.25$ litros más. ¿Cuántos litros tiene en total?",
+    "bloom_level": "analyze",
+    "question_type": "multiple_choice",
+    "options_json": [
+      "$0.85$",
+      "$0.65$",
+      "$0.55$",
+      "$0.875$"
+    ],
+    "correct_answer": "$0.85$",
+    "explanation": "$\\frac{3}{5} = 0.6$. Suma: $0.6 + 0.25 = 0.85$."
+  },
+  {
+    "subject": "preuniversitario",
+    "topic": "algebra_introductoria",
+    "skill": "identificacion_variable",
+    "question_text": "En la expresión $3x + 5$, ¿cuál es la variable?",
+    "bloom_level": "remember",
+    "question_type": "multiple_choice",
+    "options_json": [
+      "$x$",
+      "$3$",
+      "$5$",
+      "$+$"
+    ],
+    "correct_answer": "$x$",
+    "explanation": "La variable es el símbolo que representa un valor desconocido; aquí es $x$."
+  },
+  {
+    "subject": "preuniversitario",
+    "topic": "algebra_introductoria",
+    "skill": "traduccion_lenguaje",
+    "question_text": "¿Qué expresión representa la frase 'el doble de un número aumentado en 7'?",
+    "bloom_level": "understand",
+    "question_type": "multiple_choice",
+    "options_json": [
+      "$2x + 7$",
+      "$2(x + 7)$",
+      "$\\frac{x}{2} + 7$",
+      "$2x - 7$"
+    ],
+    "correct_answer": "$2x + 7$",
+    "explanation": "'El doble de un número' es $2x$, 'aumentado en 7' es $+ 7$. Por lo tanto $2x + 7$."
+  },
+  {
+    "subject": "preuniversitario",
+    "topic": "algebra_introductoria",
+    "skill": "evaluacion_simple",
+    "question_text": "Si $x = 4$, ¿cuál es el valor de $2x + 3$?",
+    "bloom_level": "understand",
+    "question_type": "multiple_choice",
+    "options_json": [
+      "$11$",
+      "$14$",
+      "$9$",
+      "$7$"
+    ],
+    "correct_answer": "$11$",
+    "explanation": "$2(4) + 3 = 8 + 3 = 11$."
+  },
+  {
+    "subject": "preuniversitario",
+    "topic": "algebra_introductoria",
+    "skill": "simplificacion_terminos",
+    "question_text": "Simplifica $5x + 3 - 2x + 8$ reduciendo términos semejantes.",
+    "bloom_level": "apply",
+    "question_type": "multiple_choice",
+    "options_json": [
+      "$3x + 11$",
+      "$7x + 11$",
+      "$3x + 5$",
+      "$5x - 11$"
+    ],
+    "correct_answer": "$3x + 11$",
+    "explanation": "Términos con $x$: $5x - 2x = 3x$. Constantes: $3 + 8 = 11$. Resultado: $3x + 11$."
+  },
+  {
+    "subject": "preuniversitario",
+    "topic": "algebra_introductoria",
+    "skill": "sustitucion_multiple",
+    "question_text": "Si $a = 3$ y $b = -2$, ¿cuál es el valor de $a^2 - 2b$?",
+    "bloom_level": "apply",
+    "question_type": "multiple_choice",
+    "options_json": [
+      "$13$",
+      "$5$",
+      "$11$",
+      "$-13$"
+    ],
+    "correct_answer": "$13$",
+    "explanation": "$a^2 = 9$; $-2b = -2(-2) = 4$. Suma: $9 + 4 = 13$."
+  },
+  {
+    "subject": "preuniversitario",
+    "topic": "algebra_introductoria",
+    "skill": "planteamiento_expresion",
+    "question_text": "La edad de Ana es $x$ años. La edad de su hermano es $5$ años más que el doble de la edad de Ana. ¿Qué expresión representa la edad del hermano?",
+    "bloom_level": "analyze",
+    "question_type": "multiple_choice",
+    "options_json": [
+      "$2x + 5$",
+      "$5x + 2$",
+      "$x + 5$",
+      "$2(x + 5)$"
+    ],
+    "correct_answer": "$2x + 5$",
+    "explanation": "'El doble de la edad de Ana' es $2x$; 'cinco años más' significa sumar $5$: $2x + 5$."
+  },
+  {
+    "subject": "preuniversitario",
+    "topic": "razonamiento_numerico",
+    "skill": "patron_simple",
+    "question_text": "¿Cuál es el siguiente número en la secuencia: $2, 4, 6, 8, \\dots$?",
+    "bloom_level": "remember",
+    "question_type": "multiple_choice",
+    "options_json": [
+      "$10$",
+      "$9$",
+      "$12$",
+      "$16$"
+    ],
+    "correct_answer": "$10$",
+    "explanation": "Es una sucesión de números pares con razón $+2$; el siguiente es $8 + 2 = 10$."
+  },
+  {
+    "subject": "preuniversitario",
+    "topic": "razonamiento_numerico",
+    "skill": "secuencia_geometrica",
+    "question_text": "¿Qué número sigue en la sucesión: $3, 6, 12, 24, \\dots$?",
+    "bloom_level": "understand",
+    "question_type": "multiple_choice",
+    "options_json": [
+      "$48$",
+      "$30$",
+      "$36$",
+      "$50$"
+    ],
+    "correct_answer": "$48$",
+    "explanation": "Cada término es el doble del anterior: $24 \\times 2 = 48$."
+  },
+  {
+    "subject": "preuniversitario",
+    "topic": "razonamiento_numerico",
+    "skill": "operacion_inversa",
+    "question_text": "Pienso un número, lo multiplico por $4$ y le sumo $5$. El resultado es $25$. ¿Qué número pensé?",
+    "bloom_level": "understand",
+    "question_type": "multiple_choice",
+    "options_json": [
+      "$5$",
+      "$6$",
+      "$10$",
+      "$15$"
+    ],
+    "correct_answer": "$5$",
+    "explanation": "Si $4x + 5 = 25$, entonces $4x = 20$ y $x = 5$."
+  },
+  {
+    "subject": "preuniversitario",
+    "topic": "razonamiento_numerico",
+    "skill": "proporcionalidad_inversa",
+    "question_text": "Si $3$ obreros tardan $6$ horas en pintar una pared, ¿cuánto tardarán $6$ obreros trabajando al mismo ritmo?",
+    "bloom_level": "apply",
+    "question_type": "multiple_choice",
+    "options_json": [
+      "$3$ horas",
+      "$12$ horas",
+      "$9$ horas",
+      "$2$ horas"
+    ],
+    "correct_answer": "$3$ horas",
+    "explanation": "Al duplicar el número de obreros, el tiempo se reduce a la mitad: $6 \\div 2 = 3$ horas."
+  },
+  {
+    "subject": "preuniversitario",
+    "topic": "razonamiento_numerico",
+    "skill": "distribucion_desigual",
+    "question_text": "Reparto \\$120 entre $4$ personas de modo que tres reciben la misma cantidad y una recibe el doble. ¿Cuánto recibe la persona favorecida?",
+    "bloom_level": "apply",
+    "question_type": "multiple_choice",
+    "options_json": [
+      "\\$48",
+      "\\$30",
+      "\\$40",
+      "\\$60"
+    ],
+    "correct_answer": "\\$48",
+    "explanation": "Si tres reciben $x$ y una $2x$: $3x + 2x = 120 \\Rightarrow 5x = 120 \\Rightarrow x = 24$. La favorecida recibe $2x = 48$."
+  },
+  {
+    "subject": "preuniversitario",
+    "topic": "razonamiento_numerico",
+    "skill": "numeros_consecutivos",
+    "question_text": "La suma de tres números enteros consecutivos es $48$. ¿Cuál es el mayor?",
+    "bloom_level": "analyze",
+    "question_type": "multiple_choice",
+    "options_json": [
+      "$17$",
+      "$15$",
+      "$16$",
+      "$18$"
+    ],
+    "correct_answer": "$17$",
+    "explanation": "Sean $n, n+1, n+2$. Entonces $3n + 3 = 48 \\Rightarrow n = 15$. El mayor es $n + 2 = 17$."
+  },
+  {
+    "subject": "preuniversitario",
+    "topic": "ecuaciones_basicas",
+    "skill": "despeje_suma",
+    "question_text": "Resuelve la ecuación $x + 9 = 14$.",
+    "bloom_level": "remember",
+    "question_type": "multiple_choice",
+    "options_json": [
+      "$x = 5$",
+      "$x = 23$",
+      "$x = -5$",
+      "$x = 9$"
+    ],
+    "correct_answer": "$x = 5$",
+    "explanation": "Restando $9$ a ambos lados: $x = 14 - 9 = 5$."
+  },
+  {
+    "subject": "preuniversitario",
+    "topic": "ecuaciones_basicas",
+    "skill": "despeje_multiplicacion",
+    "question_text": "Resuelve la ecuación $4x = 28$.",
+    "bloom_level": "understand",
+    "question_type": "multiple_choice",
+    "options_json": [
+      "$x = 7$",
+      "$x = 24$",
+      "$x = 32$",
+      "$x = 8$"
+    ],
+    "correct_answer": "$x = 7$",
+    "explanation": "Dividiendo entre $4$: $x = 28 / 4 = 7$."
+  },
+  {
+    "subject": "preuniversitario",
+    "topic": "ecuaciones_basicas",
+    "skill": "dos_pasos",
+    "question_text": "Resuelve la ecuación $3x + 2 = 17$.",
+    "bloom_level": "understand",
+    "question_type": "multiple_choice",
+    "options_json": [
+      "$x = 5$",
+      "$x = \\frac{19}{3}$",
+      "$x = 6$",
+      "$x = 15$"
+    ],
+    "correct_answer": "$x = 5$",
+    "explanation": "$3x = 15 \\Rightarrow x = 5$."
+  },
+  {
+    "subject": "preuniversitario",
+    "topic": "ecuaciones_basicas",
+    "skill": "con_fraccion",
+    "question_text": "Resuelve la ecuación $\\frac{x}{3} - 4 = 2$.",
+    "bloom_level": "apply",
+    "question_type": "multiple_choice",
+    "options_json": [
+      "$x = 18$",
+      "$x = 6$",
+      "$x = 2$",
+      "$x = -6$"
+    ],
+    "correct_answer": "$x = 18$",
+    "explanation": "$\\frac{x}{3} = 6 \\Rightarrow x = 18$."
+  },
+  {
+    "subject": "preuniversitario",
+    "topic": "ecuaciones_basicas",
+    "skill": "problema_planteado",
+    "question_text": "La suma de un número y su triple es $48$. ¿Cuál es el número?",
+    "bloom_level": "apply",
+    "question_type": "multiple_choice",
+    "options_json": [
+      "$12$",
+      "$16$",
+      "$24$",
+      "$8$"
+    ],
+    "correct_answer": "$12$",
+    "explanation": "$x + 3x = 48 \\Rightarrow 4x = 48 \\Rightarrow x = 12$."
+  },
+  {
+    "subject": "preuniversitario",
+    "topic": "ecuaciones_basicas",
+    "skill": "problema_edades",
+    "question_text": "Un padre tiene el triple de la edad de su hijo. Si la suma de sus edades es $48$, ¿cuál es la edad del hijo?",
+    "bloom_level": "analyze",
+    "question_type": "multiple_choice",
+    "options_json": [
+      "$12$",
+      "$16$",
+      "$24$",
+      "$36$"
+    ],
+    "correct_answer": "$12$",
+    "explanation": "Sea $x$ la edad del hijo; la del padre es $3x$. Entonces $x + 3x = 48 \\Rightarrow x = 12$."
+  },
+  {
+    "subject": "preuniversitario",
+    "topic": "logica_proposiciones",
+    "skill": "definicion_proposicion",
+    "question_text": "¿Cuál de las siguientes oraciones es una proposición lógica?",
+    "bloom_level": "remember",
+    "question_type": "multiple_choice",
+    "options_json": [
+      "'Hoy es jueves'",
+      "'¿Qué hora es?'",
+      "'¡Cuidado!'",
+      "'Cierra la puerta'"
+    ],
+    "correct_answer": "'Hoy es jueves'",
+    "explanation": "Una proposición es una oración declarativa a la que se le puede asignar valor de verdad. Las preguntas, exclamaciones y órdenes no lo son."
+  },
+  {
+    "subject": "preuniversitario",
+    "topic": "logica_proposiciones",
+    "skill": "conjuncion",
+    "question_text": "Si $p$ es verdadera y $q$ es falsa, ¿cuál es el valor de verdad de $p \\land q$?",
+    "bloom_level": "understand",
+    "question_type": "multiple_choice",
+    "options_json": [
+      "Falso",
+      "Verdadero",
+      "Indefinido",
+      "Depende del contexto"
+    ],
+    "correct_answer": "Falso",
+    "explanation": "La conjunción $p \\land q$ sólo es verdadera cuando ambas proposiciones son verdaderas."
+  },
+  {
+    "subject": "preuniversitario",
+    "topic": "logica_proposiciones",
+    "skill": "negacion_cuantificador",
+    "question_text": "¿Cuál es la negación de la proposición 'Todos los estudiantes aprobaron'?",
+    "bloom_level": "understand",
+    "question_type": "multiple_choice",
+    "options_json": [
+      "Al menos un estudiante no aprobó",
+      "Ningún estudiante aprobó",
+      "Todos los estudiantes reprobaron",
+      "Algunos estudiantes aprobaron"
+    ],
+    "correct_answer": "Al menos un estudiante no aprobó",
+    "explanation": "La negación de 'para todo $x$, $P(x)$' es 'existe $x$ tal que no se cumple $P(x)$'."
+  },
+  {
+    "subject": "preuniversitario",
+    "topic": "logica_proposiciones",
+    "skill": "modus_tollens",
+    "question_text": "Considera 'Si llueve, entonces el suelo se moja'. Si se observa que el suelo NO se moja, ¿qué se puede concluir?",
+    "bloom_level": "apply",
+    "question_type": "multiple_choice",
+    "options_json": [
+      "No llovió",
+      "Llovió",
+      "No se puede concluir nada",
+      "Siempre llueve"
+    ],
+    "correct_answer": "No llovió",
+    "explanation": "Es una aplicación de Modus Tollens: si $p \\to q$ es verdadera y $q$ es falsa, entonces $p$ es falsa."
+  },
+  {
+    "subject": "preuniversitario",
+    "topic": "logica_proposiciones",
+    "skill": "disyuncion",
+    "question_text": "Sea $p$: '$5 > 3$' y $q$: '$2 + 2 = 5$'. ¿Cuál es el valor de verdad de $p \\lor q$?",
+    "bloom_level": "apply",
+    "question_type": "multiple_choice",
+    "options_json": [
+      "Verdadero",
+      "Falso",
+      "Indefinido",
+      "Depende"
+    ],
+    "correct_answer": "Verdadero",
+    "explanation": "$p$ es verdadera y $q$ es falsa. La disyunción $V \\lor F$ es verdadera."
+  },
+  {
+    "subject": "preuniversitario",
+    "topic": "logica_proposiciones",
+    "skill": "silogismo",
+    "question_text": "De las premisas 'Todos los matemáticos son inteligentes' y 'Juan es matemático', ¿cuál es una conclusión válida?",
+    "bloom_level": "analyze",
+    "question_type": "multiple_choice",
+    "options_json": [
+      "Juan es inteligente",
+      "Todos los inteligentes son matemáticos",
+      "Juan podría no ser inteligente",
+      "No se puede concluir"
+    ],
+    "correct_answer": "Juan es inteligente",
+    "explanation": "Por silogismo categórico (Barbara): si todos los $M$ son $I$ y Juan es $M$, entonces Juan es $I$."
+  },
+  {
+    "subject": "preuniversitario",
+    "topic": "datos_organizacion",
+    "skill": "definicion_distribucion",
+    "question_text": "¿Cómo se llama el resultado de organizar un conjunto de datos en categorías y contar cuántos hay en cada una?",
+    "bloom_level": "remember",
+    "question_type": "multiple_choice",
+    "options_json": [
+      "Una distribución de frecuencias",
+      "La media aritmética",
+      "El rango",
+      "La desviación estándar"
+    ],
+    "correct_answer": "Una distribución de frecuencias",
+    "explanation": "Una distribución de frecuencias muestra cuántas veces aparece cada categoría o valor en un conjunto de datos."
+  },
+  {
+    "subject": "preuniversitario",
+    "topic": "datos_organizacion",
+    "skill": "lectura_frecuencia",
+    "question_text": "En el conjunto de datos $\\{6, 7, 7, 8, 8, 8, 9, 9, 10\\}$, ¿cuál valor tiene mayor frecuencia?",
+    "bloom_level": "understand",
+    "question_type": "multiple_choice",
+    "options_json": [
+      "$8$",
+      "$7$",
+      "$9$",
+      "$10$"
+    ],
+    "correct_answer": "$8$",
+    "explanation": "$8$ aparece $3$ veces, $7$ y $9$ aparecen $2$ veces cada uno, $6$ y $10$ una vez."
+  },
+  {
+    "subject": "preuniversitario",
+    "topic": "datos_organizacion",
+    "skill": "tipo_grafico",
+    "question_text": "¿Cuál tipo de gráfico es más adecuado para mostrar la frecuencia de preferencias de fruta favorita en un grupo de estudiantes?",
+    "bloom_level": "understand",
+    "question_type": "multiple_choice",
+    "options_json": [
+      "Gráfico de barras",
+      "Gráfico de líneas",
+      "Gráfico de dispersión",
+      "Histograma de variable continua"
+    ],
+    "correct_answer": "Gráfico de barras",
+    "explanation": "Las preferencias son datos categóricos; el gráfico de barras es el más adecuado para compararlas visualmente."
+  },
+  {
+    "subject": "preuniversitario",
+    "topic": "datos_organizacion",
+    "skill": "frecuencia_relativa",
+    "question_text": "En una encuesta a $20$ personas, $5$ prefieren café. ¿Cuál es la frecuencia relativa expresada en porcentaje?",
+    "bloom_level": "apply",
+    "question_type": "multiple_choice",
+    "options_json": [
+      "$25\\%$",
+      "$5\\%$",
+      "$50\\%$",
+      "$20\\%$"
+    ],
+    "correct_answer": "$25\\%$",
+    "explanation": "$\\frac{5}{20} = 0.25 = 25\\%$."
+  },
+  {
+    "subject": "preuniversitario",
+    "topic": "datos_organizacion",
+    "skill": "rango_datos",
+    "question_text": "¿Cuál es el rango del conjunto de datos $\\{4, 8, 15, 16, 23, 42\\}$?",
+    "bloom_level": "apply",
+    "question_type": "multiple_choice",
+    "options_json": [
+      "$38$",
+      "$18$",
+      "$23$",
+      "$42$"
+    ],
+    "correct_answer": "$38$",
+    "explanation": "Rango = máximo $-$ mínimo $= 42 - 4 = 38$."
+  },
+  {
+    "subject": "preuniversitario",
+    "topic": "datos_organizacion",
+    "skill": "diagrama_venn",
+    "question_text": "En un grupo de $40$ estudiantes, $15$ practican fútbol, $12$ baloncesto y $8$ ambos deportes. ¿Cuántos no practican ninguno de los dos?",
+    "bloom_level": "analyze",
+    "question_type": "multiple_choice",
+    "options_json": [
+      "$21$",
+      "$5$",
+      "$13$",
+      "$27$"
+    ],
+    "correct_answer": "$21$",
+    "explanation": "Practican al menos uno: $15 + 12 - 8 = 19$. No practican ninguno: $40 - 19 = 21$."
+  },
+  {
+    "subject": "preuniversitario",
+    "topic": "tendencia_central",
+    "skill": "definicion_media",
+    "question_text": "¿Cómo se calcula la media aritmética de un conjunto de datos?",
+    "bloom_level": "remember",
+    "question_type": "multiple_choice",
+    "options_json": [
+      "Sumando todos los datos y dividiendo entre el número de datos",
+      "Tomando el dato del medio",
+      "Identificando el dato más frecuente",
+      "Restando el mayor al menor"
+    ],
+    "correct_answer": "Sumando todos los datos y dividiendo entre el número de datos",
+    "explanation": "La media aritmética es la suma de los valores entre la cantidad de valores."
+  },
+  {
+    "subject": "preuniversitario",
+    "topic": "tendencia_central",
+    "skill": "moda",
+    "question_text": "¿Cuál es la moda del conjunto $\\{3, 7, 7, 8, 9, 7, 5\\}$?",
+    "bloom_level": "understand",
+    "question_type": "multiple_choice",
+    "options_json": [
+      "$7$",
+      "$3$",
+      "$8$",
+      "$9$"
+    ],
+    "correct_answer": "$7$",
+    "explanation": "$7$ aparece $3$ veces, más que cualquier otro valor."
+  },
+  {
+    "subject": "preuniversitario",
+    "topic": "tendencia_central",
+    "skill": "mediana_impar",
+    "question_text": "¿Cuál es la mediana del conjunto $\\{2, 4, 5, 7, 9\\}$?",
+    "bloom_level": "understand",
+    "question_type": "multiple_choice",
+    "options_json": [
+      "$5$",
+      "$4$",
+      "$7$",
+      "$5.4$"
+    ],
+    "correct_answer": "$5$",
+    "explanation": "Los datos están ordenados; con $5$ valores, la mediana es el tercero: $5$."
+  },
+  {
+    "subject": "preuniversitario",
+    "topic": "tendencia_central",
+    "skill": "calculo_media",
+    "question_text": "Calcula la media aritmética del conjunto $\\{5, 8, 10, 12, 15\\}$.",
+    "bloom_level": "apply",
+    "question_type": "multiple_choice",
+    "options_json": [
+      "$10$",
+      "$8$",
+      "$12$",
+      "$50$"
+    ],
+    "correct_answer": "$10$",
+    "explanation": "$\\frac{5 + 8 + 10 + 12 + 15}{5} = \\frac{50}{5} = 10$."
+  },
+  {
+    "subject": "preuniversitario",
+    "topic": "tendencia_central",
+    "skill": "mediana_par",
+    "question_text": "¿Cuál es la mediana del conjunto $\\{4, 6, 8, 10\\}$?",
+    "bloom_level": "apply",
+    "question_type": "multiple_choice",
+    "options_json": [
+      "$7$",
+      "$6$",
+      "$8$",
+      "$14$"
+    ],
+    "correct_answer": "$7$",
+    "explanation": "Con $4$ datos ordenados, la mediana es el promedio de los dos centrales: $(6 + 8) / 2 = 7$."
+  },
+  {
+    "subject": "preuniversitario",
+    "topic": "tendencia_central",
+    "skill": "dato_faltante",
+    "question_text": "Las calificaciones de un estudiante en cuatro exámenes son $6$, $8$, $7$ y $x$. Si su promedio es $7.5$, ¿cuál es la calificación que falta?",
+    "bloom_level": "analyze",
+    "question_type": "multiple_choice",
+    "options_json": [
+      "$9$",
+      "$7$",
+      "$8$",
+      "$10$"
+    ],
+    "correct_answer": "$9$",
+    "explanation": "$\\frac{6 + 8 + 7 + x}{4} = 7.5 \\Rightarrow 21 + x = 30 \\Rightarrow x = 9$."
+  },
+  {
+    "subject": "preuniversitario",
+    "topic": "pitagoras_aplicado",
+    "skill": "enunciado_teorema",
+    "question_text": "¿Cuál es la fórmula del teorema de Pitágoras para un triángulo rectángulo con catetos $a$, $b$ e hipotenusa $c$?",
+    "bloom_level": "remember",
+    "question_type": "multiple_choice",
+    "options_json": [
+      "$a^2 + b^2 = c^2$",
+      "$a + b = c$",
+      "$a^2 - b^2 = c^2$",
+      "$a \\cdot b = c$"
+    ],
+    "correct_answer": "$a^2 + b^2 = c^2$",
+    "explanation": "El teorema afirma que la suma de los cuadrados de los catetos es igual al cuadrado de la hipotenusa."
+  },
+  {
+    "subject": "preuniversitario",
+    "topic": "pitagoras_aplicado",
+    "skill": "hipotenusa_directa",
+    "question_text": "En un triángulo rectángulo, los catetos miden $6$ y $8$. ¿Cuál es la longitud de la hipotenusa?",
+    "bloom_level": "understand",
+    "question_type": "multiple_choice",
+    "options_json": [
+      "$10$",
+      "$14$",
+      "$\\sqrt{14}$",
+      "$48$"
+    ],
+    "correct_answer": "$10$",
+    "explanation": "$c = \\sqrt{6^2 + 8^2} = \\sqrt{36 + 64} = \\sqrt{100} = 10$."
+  },
+  {
+    "subject": "preuniversitario",
+    "topic": "pitagoras_aplicado",
+    "skill": "identificacion_hipotenusa",
+    "question_text": "¿Cuál es el lado más largo en cualquier triángulo rectángulo?",
+    "bloom_level": "understand",
+    "question_type": "multiple_choice",
+    "options_json": [
+      "La hipotenusa",
+      "Cualquier cateto",
+      "El cateto opuesto al ángulo recto",
+      "Depende del tipo de triángulo"
+    ],
+    "correct_answer": "La hipotenusa",
+    "explanation": "La hipotenusa, por estar opuesta al ángulo recto (el mayor), es siempre el lado más largo."
+  },
+  {
+    "subject": "preuniversitario",
+    "topic": "pitagoras_aplicado",
+    "skill": "cateto_faltante",
+    "question_text": "La hipotenusa de un triángulo rectángulo mide $25$ y un cateto mide $7$. ¿Cuál es la medida del otro cateto?",
+    "bloom_level": "apply",
+    "question_type": "multiple_choice",
+    "options_json": [
+      "$24$",
+      "$18$",
+      "$\\sqrt{18}$",
+      "$32$"
+    ],
+    "correct_answer": "$24$",
+    "explanation": "$\\sqrt{25^2 - 7^2} = \\sqrt{625 - 49} = \\sqrt{576} = 24$."
+  },
+  {
+    "subject": "preuniversitario",
+    "topic": "pitagoras_aplicado",
+    "skill": "diagonal_rectangulo",
+    "question_text": "Un parque rectangular mide $9$ m de ancho y $12$ m de largo. ¿Cuál es la longitud de su diagonal?",
+    "bloom_level": "apply",
+    "question_type": "multiple_choice",
+    "options_json": [
+      "$15$ m",
+      "$21$ m",
+      "$\\sqrt{21}$ m",
+      "$108$ m"
+    ],
+    "correct_answer": "$15$ m",
+    "explanation": "Diagonal $= \\sqrt{9^2 + 12^2} = \\sqrt{81 + 144} = \\sqrt{225} = 15$ m."
+  },
+  {
+    "subject": "preuniversitario",
+    "topic": "pitagoras_aplicado",
+    "skill": "escalera_pared",
+    "question_text": "Una escalera de $13$ m se apoya contra una pared, y su base está a $5$ m de la pared. ¿A qué altura sobre el suelo toca la pared?",
+    "bloom_level": "analyze",
+    "question_type": "multiple_choice",
+    "options_json": [
+      "$12$ m",
+      "$8$ m",
+      "$\\sqrt{194}$ m",
+      "$18$ m"
+    ],
+    "correct_answer": "$12$ m",
+    "explanation": "La escalera es la hipotenusa: altura $= \\sqrt{13^2 - 5^2} = \\sqrt{169 - 25} = \\sqrt{144} = 12$ m."
+  },
+  {
+    "subject": "preuniversitario",
+    "topic": "distancia_triangulos",
+    "skill": "formula_distancia",
+    "question_text": "¿Cuál es la fórmula correcta para calcular la distancia entre dos puntos $(x_1, y_1)$ y $(x_2, y_2)$ en el plano?",
+    "bloom_level": "remember",
+    "question_type": "multiple_choice",
+    "options_json": [
+      "$d = \\sqrt{(x_2 - x_1)^2 + (y_2 - y_1)^2}$",
+      "$d = (x_2 - x_1) + (y_2 - y_1)$",
+      "$d = |x_2 - x_1| - |y_2 - y_1|$",
+      "$d = x_1 \\cdot y_1 - x_2 \\cdot y_2$"
+    ],
+    "correct_answer": "$d = \\sqrt{(x_2 - x_1)^2 + (y_2 - y_1)^2}$",
+    "explanation": "Es una aplicación directa del teorema de Pitágoras en el plano cartesiano."
+  },
+  {
+    "subject": "preuniversitario",
+    "topic": "distancia_triangulos",
+    "skill": "distancia_horizontal",
+    "question_text": "¿Cuál es la distancia entre los puntos $(2, 5)$ y $(8, 5)$?",
+    "bloom_level": "understand",
+    "question_type": "multiple_choice",
+    "options_json": [
+      "$6$",
+      "$10$",
+      "$13$",
+      "$\\sqrt{13}$"
+    ],
+    "correct_answer": "$6$",
+    "explanation": "Como ambos puntos tienen el mismo valor de $y$, la distancia es $|8 - 2| = 6$."
+  },
+  {
+    "subject": "preuniversitario",
+    "topic": "distancia_triangulos",
+    "skill": "tipos_triangulos",
+    "question_text": "Un triángulo cuyos tres lados tienen la misma longitud se llama:",
+    "bloom_level": "understand",
+    "question_type": "multiple_choice",
+    "options_json": [
+      "Equilátero",
+      "Isósceles",
+      "Escaleno",
+      "Rectángulo"
+    ],
+    "correct_answer": "Equilátero",
+    "explanation": "Un triángulo equilátero tiene los tres lados iguales (y también los tres ángulos iguales)."
+  },
+  {
+    "subject": "preuniversitario",
+    "topic": "distancia_triangulos",
+    "skill": "distancia_general",
+    "question_text": "Calcula la distancia entre los puntos $(1, 2)$ y $(4, 6)$.",
+    "bloom_level": "apply",
+    "question_type": "multiple_choice",
+    "options_json": [
+      "$5$",
+      "$7$",
+      "$\\sqrt{7}$",
+      "$25$"
+    ],
+    "correct_answer": "$5$",
+    "explanation": "$d = \\sqrt{(4 - 1)^2 + (6 - 2)^2} = \\sqrt{9 + 16} = \\sqrt{25} = 5$."
+  },
+  {
+    "subject": "preuniversitario",
+    "topic": "distancia_triangulos",
+    "skill": "perimetro_triangulo",
+    "question_text": "Los vértices de un triángulo son $A(0,0)$, $B(3,0)$ y $C(3,4)$. ¿Cuál es su perímetro?",
+    "bloom_level": "apply",
+    "question_type": "multiple_choice",
+    "options_json": [
+      "$12$",
+      "$10$",
+      "$15$",
+      "$7$"
+    ],
+    "correct_answer": "$12$",
+    "explanation": "$AB = 3$, $BC = 4$, $AC = \\sqrt{9 + 16} = 5$. Perímetro $= 3 + 4 + 5 = 12$."
+  },
+  {
+    "subject": "preuniversitario",
+    "topic": "distancia_triangulos",
+    "skill": "clasificacion_triangulo",
+    "question_text": "Los vértices de un triángulo son $P(0,0)$, $Q(4,0)$ y $R(0,3)$. ¿Qué tipo de triángulo forman?",
+    "bloom_level": "analyze",
+    "question_type": "multiple_choice",
+    "options_json": [
+      "Rectángulo, con catetos $3$ y $4$",
+      "Equilátero",
+      "Isósceles no rectángulo",
+      "Obtusángulo"
+    ],
+    "correct_answer": "Rectángulo, con catetos $3$ y $4$",
+    "explanation": "Los lados sobre los ejes son perpendiculares: $PQ = 4$ y $PR = 3$ son catetos, y $QR = 5$ es la hipotenusa."
+  },
+  {
+    "subject": "preuniversitario",
+    "topic": "trigonometria_rectangulo",
+    "skill": "definicion_tangente",
+    "question_text": "En un triángulo rectángulo, ¿cómo se define $\\tan(\\theta)$?",
+    "bloom_level": "remember",
+    "question_type": "multiple_choice",
+    "options_json": [
+      "Cateto opuesto sobre cateto adyacente",
+      "Cateto adyacente sobre cateto opuesto",
+      "Hipotenusa sobre cateto opuesto",
+      "Cateto opuesto sobre hipotenusa"
+    ],
+    "correct_answer": "Cateto opuesto sobre cateto adyacente",
+    "explanation": "Por definición: $\\tan(\\theta) = \\dfrac{\\text{cateto opuesto}}{\\text{cateto adyacente}}$."
+  },
+  {
+    "subject": "preuniversitario",
+    "topic": "trigonometria_rectangulo",
+    "skill": "valor_notable",
+    "question_text": "¿Cuál es el valor exacto de $\\cos(60°)$?",
+    "bloom_level": "understand",
+    "question_type": "multiple_choice",
+    "options_json": [
+      "$\\frac{1}{2}$",
+      "$\\frac{\\sqrt{3}}{2}$",
+      "$\\frac{\\sqrt{2}}{2}$",
+      "$1$"
+    ],
+    "correct_answer": "$\\frac{1}{2}$",
+    "explanation": "$\\cos(60°) = \\dfrac{1}{2}$ es un valor notable de la trigonometría."
+  },
+  {
+    "subject": "preuniversitario",
+    "topic": "trigonometria_rectangulo",
+    "skill": "identificacion_seno",
+    "question_text": "En un triángulo rectángulo con un ángulo $\\theta$, el cateto opuesto mide $3$, el adyacente $4$ y la hipotenusa $5$. ¿Cuál es el valor de $\\sin(\\theta)$?",
+    "bloom_level": "understand",
+    "question_type": "multiple_choice",
+    "options_json": [
+      "$\\frac{3}{5}$",
+      "$\\frac{4}{5}$",
+      "$\\frac{3}{4}$",
+      "$\\frac{5}{3}$"
+    ],
+    "correct_answer": "$\\frac{3}{5}$",
+    "explanation": "$\\sin(\\theta) = \\dfrac{\\text{cateto opuesto}}{\\text{hipotenusa}} = \\dfrac{3}{5}$."
+  },
+  {
+    "subject": "preuniversitario",
+    "topic": "trigonometria_rectangulo",
+    "skill": "calculo_tangente",
+    "question_text": "En un triángulo rectángulo, el cateto opuesto a $\\theta$ mide $5$ y el cateto adyacente mide $12$. ¿Cuál es el valor de $\\tan(\\theta)$?",
+    "bloom_level": "apply",
+    "question_type": "multiple_choice",
+    "options_json": [
+      "$\\frac{5}{12}$",
+      "$\\frac{12}{5}$",
+      "$\\frac{5}{13}$",
+      "$\\frac{12}{13}$"
+    ],
+    "correct_answer": "$\\frac{5}{12}$",
+    "explanation": "$\\tan(\\theta) = \\dfrac{\\text{cateto opuesto}}{\\text{cateto adyacente}} = \\dfrac{5}{12}$."
+  },
+  {
+    "subject": "preuniversitario",
+    "topic": "trigonometria_rectangulo",
+    "skill": "angulo_elevacion",
+    "question_text": "Desde un punto en el suelo se observa la cima de un edificio con un ángulo de elevación de $45°$. Si la distancia horizontal al edificio es $20$ m, ¿cuál es su altura?",
+    "bloom_level": "apply",
+    "question_type": "multiple_choice",
+    "options_json": [
+      "$20$ m",
+      "$20\\sqrt{2}$ m",
+      "$10$ m",
+      "$\\frac{20}{\\sqrt{2}}$ m"
+    ],
+    "correct_answer": "$20$ m",
+    "explanation": "$\\tan(45°) = 1 = \\dfrac{h}{20}$, por lo que $h = 20$ m."
+  },
+  {
+    "subject": "preuniversitario",
+    "topic": "trigonometria_rectangulo",
+    "skill": "identidad_pitagorica",
+    "question_text": "En un triángulo rectángulo se sabe que $\\sin(\\theta) = \\frac{4}{5}$. ¿Cuál es el valor de $\\cos(\\theta)$?",
+    "bloom_level": "analyze",
+    "question_type": "multiple_choice",
+    "options_json": [
+      "$\\frac{3}{5}$",
+      "$\\frac{5}{4}$",
+      "$\\frac{4}{3}$",
+      "$\\frac{1}{5}$"
+    ],
+    "correct_answer": "$\\frac{3}{5}$",
+    "explanation": "Por la identidad pitagórica: $\\cos^2(\\theta) = 1 - \\sin^2(\\theta) = 1 - \\frac{16}{25} = \\frac{9}{25}$, así $\\cos(\\theta) = \\frac{3}{5}$."
+  }
+]
